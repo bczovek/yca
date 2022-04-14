@@ -7,7 +7,7 @@ def __make_request(video_id, pageToken=""):
 
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyBus7NEgJerHPvIgvzxAubbEcQMtrTA4Cs"
+    DEVELOPER_KEY = "[API_KEY]"
 
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
